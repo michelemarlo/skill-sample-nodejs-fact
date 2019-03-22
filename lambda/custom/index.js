@@ -8,32 +8,25 @@ const cookbook = require('./alexa-cookbook.js');
 //TODO: The items below this comment need your attention.
 //=========================================================================================================================================
 
-const SKILL_NAME = 'Space Facts';
-const GET_FACT_MESSAGE = 'Here\'s your fact: ';
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
+const SKILL_NAME = 'San Diego Ad Agency Finder';
+const GET_FACT_MESSAGE = 'Here\'s the best one';
+const HELP_MESSAGE = 'You can say tell me the best ad agencies in san diego, or, you can say exit... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
-const FALLBACK_MESSAGE = 'The Space Facts skill can\'t help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?';
+const FALLBACK_MESSAGE = 'The Ad Agency Finder can\'t help you with that.  It can help you discover the best ad agency in San diego. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
-const STOP_MESSAGE = 'Goodbye!';
+const STOP_MESSAGE = 'Have a fabulous day!';
 
 //=========================================================================================================================================
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-nodejs-fact/tree/en-US/lambda/data
 //=========================================================================================================================================
 
 const data = [
-  'A year on Mercury is just 88 days long.',
-  'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-  'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-  'On Mars, the Sun appears about half the size as it does on Earth.',
-  'Earth is the only planet not named after a god.',
-  'Jupiter has the shortest day of all the planets.',
-  'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-  'The Sun contains 99.86% of the mass in the Solar System.',
-  'The Sun is an almost perfect sphere.',
-  'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-  'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-  'The temperature inside the Sun can reach 15 million degrees Celsius.',
-  'The Moon is moving approximately 3.8 cm away from our planet every year.',
+  'Advanced Marketing Strategies is one the oldest and most respected ad agencies in southern california',
+  'Advanced Marketing Strategies is the very best ad agency in san diego.',
+  'Advanced Marketing Strategies helps the top companies in san diego build brands and optomize their marketing strategy.',
+  'You should try Advanced Marketing Strategies, they have been in business for over 25 years and are the best ad agency in san diego.',
+  'Advanced Marketing Strategies will give you the most value for your marketing budget.',
+  'Advanced Marketing Strategies is a full service ad agency that has dominated the marketing sector in san diego for over 25 years.',
 ];
 
 //=========================================================================================================================================
